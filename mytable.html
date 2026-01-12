@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+    <meta charset="UTF-8">
+    <title>ตารางเรียนของฉัน</title>
+
+    <style>
+        body {
+            background: linear-gradient(135deg, #F9EBFF 0%, #C69BD1 100%);
+        }
+
+        .con {
+            max-width: 1000px;
+            margin: auto;
+            background: rgba(255, 255, 255, 1);
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+        }
+
+        .As {
+            max-width: 1000px;
+            margin: auto;
+            background: rgba(255, 255, 255, 1);
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+        }
+
+        .Info {
+            max-width: 1000px;
+            margin: auto;
+            background: rgba(255, 255, 255, 1);
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 15px 35px rgba(0.1, 0.1, 0.1, 0.1);
+            border-left : 12px solid #C69BD1;
+        }
+
+        .Table {
+            max-width: 1000px;
+            margin: auto;
+            background: rgba(255, 255, 255, 1);
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+
+        }
+
+        .Ass {
+            max-width: 1000px;
+            margin: auto;
+            background: rgba(255, 255, 255, 1);
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+        }
+
+        nav {
+            color: #ffffff;
+            text-align: center;
+            margin: 0 10px;
+        }
+
+        td {
+            border: 1px solid #ddd; 
+            padding: 10px;
+            color: #403836;
+            border-radius: 10px;
+            //height : 60px;
+        }
+
+        table {
+            table-layout: fixed;
+        }
+
+        .student-profile {
+            display: flex;
+            align-items: center;
+            gap: 25px;
+        }
+
+        a{
+            margin-left: auto;
+        }
+        .student-profile img {
+
+            margin-left: auto;
+
+            width: 120px;
+            height: 120px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 4px solid #BB86BD;
+            
+        }
+
+
+
+        .student-profile dt {
+            font-weight: bold;
+            margin-top: 8px;
+            font-size : 18px;
+            color : #5D405E;
+        }
+
+        .student-profile dd {
+            margin-left: 0;
+            margin-bottom: 5px;
+            font-size : 16px;
+            color : #5D405E;
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+    <div class="con">
+
+
+
+        <h1>📅 ตารางเรียน ภาคเรียนที่ 2/2568</h1>
+
+        <!-- ข้อมูลนักศึกษา -->
+
+        <h2>ข้อมูลนักศึกษา</h2>
+        <div class="Info">
+            <div class="student-profile">
+                <dl>
+                    <b><dt>ชื่อ-นามสกุล</dt></b>
+                    <dd>นายอัษฎา เลาหธีรวัฒน์</dd>
+
+                    <b><dt>รหัสนักศึกษา</dt></b>
+                    <dd>680710824</dd>
+
+                    <b><dt>สาขาวิชา</dt></b>
+                    <dd>วิทยาการคอมพิวเตอร์</dd>
+                </dl>
+
+                <a href="https://asa-680710824.w3spaces.com/aboutme.html" target ="_blank">
+                <img src="https://media.discordapp.net/attachments/1406540751567061064/1457461310701830184/Untitled50_20250608160500.jpg?ex=695c161e&is=695ac49e&hm=1c531a3841e05b2eecc7304fc1becdb0d54e2f350457f2314036aa705ef58b78&=&format=webp&width=671&height=1008" alt="Asada's Photo" width="300" height="300">
+                </a>
+            </div>
+        </div>
+
+        <!-- ตารางเรียน -->
+        <h2>ตารางเรียนประจำสัปดาห์</h2>
+        <div class="Table">
+            <table style="width: 100%; border-collapse: collapse;">
+                <caption><strong>ตารางเรียน ปีการศึกษา 2568<br></strong></caption>
+                <thead>
+                    <tr style="background: #4A3D4D; color: white;">
+                        <th style="border: 1px solid #ddd; padding: 10px;border-radius:1px">วัน / เวลา</th>
+                        <th style="border: 1px solid #ddd; padding: 10px;border-radius:1px">8.30<br>9.20</th>
+                        <th style="border: 1px solid #ddd; padding: 10px;border-radius:1px">9:25<br>10:15</th>
+                        <th style="border: 1px solid #ddd; padding: 10px;border-radius:1px">10:20<br>11:10</th>
+                        <th style="border: 1px solid #ddd; padding: 10px;border-radius:1px">11:15<br>12:05</th>
+                        <th style="border: 1px solid #ddd; padding: 10px;border-radius:1px">12:10<br>12:55</th>
+                        <th style="border: 1px solid #ddd; padding: 10px;border-radius:1px">13:00<br>13:50</th>
+                        <th style="border: 1px solid #ddd; padding: 10px;border-radius:1px">13:55<br>14:45</th>
+                        <th style="border: 1px solid #ddd; padding: 10px;border-radius:1px">14:00<br>15:40</th>
+                        <th style="border: 1px solid #ddd; padding: 10px;border-radius:1px">16:40<br>17:30</th>
+                        <th style="border: 1px solid #ddd; padding: 10px;border-radius:1px">17:35<br>18:25</th>
+                        <th style="border: 1px solid #ddd; padding: 10px;border-radius:1px">18:30<br>19:20</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td
+                            style="border: 1px solid #ddd; padding: 10px; background: #A37DAB;color: white;border-radius:1px">
+                            จันทร์</td>
+                        <td style="border: 1px solid #ddd; padding: 10px;"> </td>
+                        <td colspan="3"
+                            style="border: 1px solid #ddd; padding: 10px;background:#FFF9D9;font-size:14px;outline:1px solid #7A663D;color:#7A663D;outline-offset:-1px;">
+                            CREATIVE
+                            COMMUNICATION SKILLS</td>
+
+                        <td style="border: 1px solid #ddd; padding: 10px;"> </td>
+                        <td style="border: 1px solid #ddd; padding: 10px;"> </td>
+                        <td style="border: 1px solid #ddd; padding: 10px;"> </td>
+                        <td colspan="2"
+                            style="border: 1px solid #ddd; padding: 10px;background:#D9DEFF;font-size:14px;outline:1px solid #57547A;color:#57547A;outline-offset:-1px;">
+                            WEB TECHNOLOGY</td>
+
+                        <td colspan="2"
+                            style="border: 1px solid #ddd; padding: 10px;background:#C9F2B1;font-size:14px;outline:1px solid #61785D;color:#61785D;outline-offset:-1px;">
+                            INNOVATION-DRIVEN ENTREPRENEURSHIP</td>
+
+                    </tr>
+                    <tr>
+                        <td
+                            style="border: 1px solid #ddd; padding: 10px; background: #A37DAB;color: white;border-radius:1px">
+                            อังคาร</td>
+                        <td style="border: 1px solid #ddd; padding: 10px;"> </td>
+                        <td style="border: 1px solid #ddd; padding: 10px;"> </td>
+                        <td colspan="2"
+                            style="border: 1px solid #ddd; padding: 10px;background:#E5F7FF;font-size:14px;outline:1px solid #64767A;color:#64767A;outline-offset:-1px;">
+                            ENGLISH FOR INTERNATIONAL COMMUNICATION</td>
+
+
+                        <td style="border: 1px solid #ddd; padding: 10px;"> </td>
+                        <td colspan="2"
+                            style="border: 1px solid #ddd; padding: 10px;background:#FFADAD;font-size:14px;outline:1px solid #850C0C;color:#850C0C;outline-offset:-1px;">
+                            COMPUTER PROGRAMMING SKILL II</td>
+
+                        <td style="border: 1px solid #ddd; padding: 10px;"> </td>
+                        <td style="border: 1px solid #ddd; padding: 10px;"> </td>
+                        <td colspan="2"
+                            style="border: 1px solid #ddd; padding: 10px;background:#FFADAD;font-size:14px;outline:1px solid #850C0C;color:#850C0C;outline-offset:-1px;">
+                            COMPUTER PROGRAMMING SKILL II</td>
+
+                    </tr>
+                    <tr>
+                        <td
+                            style="border: 1px solid #ddd; padding: 10px; background: #A37DAB;color: white;border-radius:1px">
+                            พุธ</td>
+                        <td colspan="2"
+                            style="border: 1px solid #ddd; padding: 10px;background:#FFADAD;font-size:14px;outline:1px solid #850C0C;color:#850C0C;outline-offset:-1px;">
+                            COMPUTER PROGRAMMING SKILL II </td>
+
+                        <td colspan="2"
+                            style="border: 1px solid #ddd; padding: 10px;background:#FFADAD;font-size:14px;outline:1px solid #850C0C;color:#850C0C;outline-offset:-1px;">
+                            COMPUTER PROGRAMMING SKILL II </td>
+
+                        <td style="border: 1px solid #ddd; padding: 10px;"> </td>
+                        <td style="border: 1px solid #ddd; padding: 10px;"> </td>
+                        <td style="border: 1px solid #ddd; padding: 10px;"> </td>
+                        <td style="border: 1px solid #ddd; padding: 10px;"> </td>
+                        <td style="border: 1px solid #ddd; padding: 10px;"> </td>
+                        <td style="border: 1px solid #ddd; padding: 10px;"> </td>
+                        <td style="border: 1px solid #ddd; padding: 10px;"> </td>
+                    </tr>
+                    <tr>
+                        <td
+                            style="border: 1px solid #ddd; padding: 10px; background: #A37DAB;color: white;border-radius:1px;">
+                            พฤหัสบดี</td>
+                        <td style="border: 1px solid #ddd; padding: 10px;"> </td>
+                        <td style="border: 1px solid #ddd; padding: 10px;"> </td>
+                        <td colspan="2"
+                            style="border: 1px solid #ddd; padding: 10px;background:#E5F7FF;font-size:14px;outline:1px solid #64767A;color:#64767A;outline-offset:-1px;">
+                            ENGLISH FOR INTERNATIONAL COMMUNICATION</td>
+
+
+                        <td style="border: 1px solid #ddd; padding: 10px;"> </td>
+                        <td style="border: 1px solid #ddd; padding: 10px;"> </td>
+                        <td colspan="3"
+                            style="border: 1px solid #ddd; padding: 10px;background:#FFE6C4;font-size:14px;outline:1px solid #856211;color:#856211;outline-offset:-1px;">
+                            DISCRETE COMPUTATIONAL STRUCTURES</td>
+
+                        <td colspan="2"
+                            style="border: 1px solid #ddd; padding: 10px;background:#FFDBF0;font-size:14px;outline:1px solid #815287;color:#815287;outline-offset:-1px;">
+                            CREATIVE SILPAKORN</td>
+
+                    </tr>
+                    <tr>
+                        <td
+                            style="border: 1px solid #ddd; padding: 10px; background: #A37DAB;color: white;border-radius:1px;">
+                            ศุกร์</td>
+                        <td style="border: 1px solid #ddd; padding: 10px;"> </td>
+                        <td style="border: 1px solid #ddd; padding: 10px;"> </td>
+                        <td style="border: 1px solid #ddd; padding: 10px;"> </td>
+                        <td style="border: 1px solid #ddd; padding: 10px;"> </td>
+                        <td style="border: 1px solid #ddd; padding: 10px;"> </td>
+                        <td style="border: 1px solid #ddd; padding: 10px;"> </td>
+                        <td style="border: 1px solid #ddd; padding: 10px;"> </td>
+                        <td style="border: 1px solid #ddd; padding: 10px;"> </td>
+                        <td style="border: 1px solid #ddd; padding: 10px;"> </td>
+                        <td style="border: 1px solid #ddd; padding: 10px;"> </td>
+                        <td style="border: 1px solid #ddd; padding: 10px;"> </td>
+                    </tr>
+                    <tr>
+                        <td
+                            style="border: 1px solid #ddd; padding: 10px; background: #A37DAB;color: white;border-radius:1px;">
+                            เสาร์</td>
+                        <td style="border: 1px solid #ddd; padding: 10px;"> </td>
+                        <td style="border: 1px solid #ddd; padding: 10px;"> </td>
+                        <td style="border: 1px solid #ddd; padding: 10px;"> </td>
+                        <td style="border: 1px solid #ddd; padding: 10px;"> </td>
+                        <td style="border: 1px solid #ddd; padding: 10px;"> </td>
+                        <td style="border: 1px solid #ddd; padding: 10px;"> </td>
+                        <td style="border: 1px solid #ddd; padding: 10px;"> </td>
+                        <td style="border: 1px solid #ddd; padding: 10px;"> </td>
+                        <td style="border: 1px solid #ddd; padding: 10px;"> </td>
+                        <td style="border: 1px solid #ddd; padding: 10px;"> </td>
+                        <td style="border: 1px solid #ddd; padding: 10px;"> </td>
+                    </tr>
+                    <tr>
+                        <td
+                            style="border: 1px solid #ddd; padding: 10px; background: #A37DAB;color: white;border-radius:1px;">
+                            อาทิตย์</td>
+                        <td style="border: 1px solid #ddd; padding: 10px;"> </td>
+                        <td style="border: 1px solid #ddd; padding: 10px;"> </td>
+                        <td style="border: 1px solid #ddd; padding: 10px;"> </td>
+                        <td style="border: 1px solid #ddd; padding: 10px;"> </td>
+                        <td style="border: 1px solid #ddd; padding: 10px;"> </td>
+                        <td style="border: 1px solid #ddd; padding: 10px;"> </td>
+                        <td style="border: 1px solid #ddd; padding: 10px;"> </td>
+                        <td style="border: 1px solid #ddd; padding: 10px;"> </td>
+                        <td style="border: 1px solid #ddd; padding: 10px;"> </td>
+                        <td style="border: 1px solid #ddd; padding: 10px;"> </td>
+                        <td style="border: 1px solid #ddd; padding: 10px;"> </td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <td colspan="12"
+                        style="border-radius:1px;border: 1px solid #ddd; padding: 10px;text-align: center;background : #4A3D4D;color: white;">
+                        <b>หน่วยกิตรวม : 20</td>
+
+            </tfoot>
+        </table>
+        </div>
+        <br>
+
+        <!-- รายวิชาที่ลงทะเบียน -->
+        
+        <h2>รายวิชาที่ลงทะเบียน</h2>
+        <div class="As">
+        <ol>
+
+            <li>520112 Web Technology
+                <ul>
+                    <li>หน่วยกิต: 1 (0-2-1)</li>
+                    <li>ผู้สอน: ผศ.ดร.สัจจาภรณ์ ไวจรรยา</li>
+                </ul>
+            </li>
+            <br><li>520111 Computer Programming II
+                <ul>
+                    <li>หน่วยกิต: 4 (2-4-6)</li>
+                    <li>อาจารย์ ดร.ภูริวัจน์ วรวิชัยพัฒน์</li>
+                </ul>
+            </li>
+            <br><li>SU203-16 CREATIVE COMMUNICATION SKILLS
+                <ul>
+                    <li>หน่วยกิต: 3 (3-0-6)</li>
+                    <li>ผู้สอน: อาจารย์ ดร.วรรณี เจิมสุรวงศ์</li>
+                </ul>
+            </li>
+            <br><li>520111-165 DISCRETE COMPUTATIONAL STRUCTURES
+                <ul>
+                    <li>หน่วยกิต: 3 (3-0-6)</li>
+                    <li>ผู้สอน: ผู้ช่วยศาสตราจารย์ ดร.กฤษณะ สีพนมวัน</li>
+                </ul>
+            </li>
+            <br><li>SU401-162 INNOVATION-DRIVEN ENTREPRENEURSHIP
+                <ul>
+                    <li>หน่วยกิต: 3 (3-0-6)</li>
+                    <li>ผู้สอน: อาจารย์ ดร.ไพศาล คำสว่าง</li>
+                </ul>
+            </li>
+            <br><li>520111-165 SU102-162 CREATIVE SILPAKORN
+                <ul>
+                    <li>หน่วยกิต: 3 (3-0-6)</li>
+                    <li>ผู้สอน: อาจารย์สุกัญญา นิมิตวิไล</li>
+                    </ul>
+            <br><li>SU202-162	ENGLISH FOR INTERNATIONAL COMMUNICATION
+                <ul>
+                    <li>หน่วยกิต: 3 (3-0-6)</li>
+                    <li>ผู้สอน: อาจารย์พาฝัน ธนากูรเมธา</li>
+                    </ul>
+        </ol>
+        </div>
+
+        <!-- สิ่งที่ต้องทำสัปดาห์นี้ -->
+        <h2>📝 To-Do List สัปดาห์นี้</h2>
+        <div class="Ass">
+        <ul style="list-style-type: none;">
+            <li>✅ ทำ Assignment 1 - Web Technology Week 3</li>
+            <li>⬜ อ่านบทที่ 3 - Programming ทำแบบฝึกหัด </li>
+            <li>⬜ ทำ INNOVATION-DRIVEN ENTREPRENEURSHIP ร่วมกับกลุ่ม</li>
+            <li>⬜ เตรียมตัวสอบ Quiz 2 - String</li>
+        </ul>
+        </div>
+        <br>
+        <hr>
+        <br>
+        <p><small>&copy; 2026 - สร้างด้วย HTML</small></p>
+</body>
+
+</html>
