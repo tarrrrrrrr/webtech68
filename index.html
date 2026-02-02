@@ -10,6 +10,15 @@
             background-color: rgb(235, 209, 233);
             color: #3B2839;
         }
+        .box{
+            max-width: 1000px;
+            margin: auto;
+            background: rgba(255, 255, 255, 1);
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
 
         .con {
             max-width: 1000px;
@@ -35,6 +44,7 @@
 </head>
 
 <body>
+    <div class="box">
     <header>
         <h1 class="logo">🍃 Leaf & Bean Café</h1>
         <nav class="main-nav">
@@ -43,32 +53,37 @@
             <a href="#contact">ติดต่อ</a>
         </nav>
     </header>
-    
+
     <main>
 
         <section>
             <h2>Suggestion Menu</h2>
         </section>
-        <div>
-            <!-- การ์ดเมนูที่ 1 -->
-            <div>
-                <h3>☕ Espresso</h3>
-                <p>เข้มข้น หอมกรุ่น คั่วกลางจากดอยช้าง</p>
-                <p>ราคา : <span>฿55</span></p>
+
+        <div class="menu-grid"> <!-- จัดเป็น Grid -->
+
+            <div class="card"> <!-- class "card" ใช้ซ้ำได้ -->
+                <h3 class="card-title">☕ Espresso</h3>
+                <p class="card-desc">เข้มข้น หอมกรุ่น</p>
+                <span class="price">฿55</span>
             </div>
-            <!-- การ์ดที่ 2 -->
-            <div>
-                <h3>🍵 Matcha Latte<span>BEST SELLER</h3>
-                <p>ชาเขียวเกรดพรีเมียมจากอุจิ</p>
-                <p>฿75</p>
+
+            <div class="card featured"> <!-- 2 class: card + featured -->
+                <h3 class="card-title">🍵 Matcha Latte</h3>
+                <p class="card-desc">ชาเขียวเกรดพรีเมียม</p>
+                <span class="price">฿75</span>
+                <span class="badge bestseller">BEST SELLER</span>
             </div>
-            <!-- การ์ดที่ 3 -->
-            <div>
-                <h3>🧊 Cold Brew</h3>
-                <p>สกัดเย็น 18 ชั่วโมง นุ่มลึก</p>
-                <p>฿65</p>
+
+            <div class="card">
+                <h3 class="card-title">🧊 Cold Brew</h3>
+                <p class="card-desc">สกัดเย็น 18 ชั่วโมง</p>
+                <span class="price">฿65</span>
+                <span class="badge new">NEW</span>
             </div>
+
         </div>
+
 
     </main>
     <article>
@@ -77,43 +92,43 @@
         <figure>
             <img src="cafe-interior.jpg" alt="บรรยากาศภายในร้าน">
             <figcaption>บรรยากาศสบาย ๆ ภายใน Leaf & Bean Café</figcaption>
-            </figure>
-        </article>
-        <aside>
-            <h3>🕐 เวลาเปิด-ปิด</h3>
-            <p>จันทร์ - ศุกร์: 7:00 - 20:00</p>
-            <p>เสาร์ - อาทิตย์: 8:00 - 21:00</p>
-        </aside>
+        </figure>
+    </article>
+    <aside>
+        <h3>🕐 เวลาเปิด-ปิด</h3>
+        <p>จันทร์ - ศุกร์: 7:00 - 20:00</p>
+        <p>เสาร์ - อาทิตย์: 8:00 - 21:00</p>
+    </aside>
 
-        <footer>
-            <p>&copy; 2026 Leaf & Bean Café</p>
-            <p>📍 ม.ศิลปากร วิทยาเขตสนามจันทร์ จ.นครปฐม</p>
-        </footer>
-        
-        
-        <br><br>
-        <button>Click Me!</button>
-        <div class="kkk">
-            <h1>Welcome to Asada Laohateerawat</h1>
-            <p>This is my first webpage!</p>
-        
-            <h2>About Me</h2>
-            <p>I am learning HTML.</p>
-        
-            <h2>My Favorite Fruits</h2>
-            <ul>
-                <li>Mango</li>
-                <li>Orange</li>
-                <li>Apple</li>
-            </ul>
-            <div class="con">
-                <h2>Useful Links</h2>
-                <a href="https://www.w3schools.com">Learn at W3Schools</a><br>
-                <a href="pages/basichtml2.html">Go to Basic</a><br>
-                <a href="aboutme.html">aboutme</a> <br>
-                <a href="mytable.html">📅Table</a>
-        
-            </div>
+    <footer>
+        <p>&copy; 2026 Leaf & Bean Café</p>
+        <p>📍 ม.ศิลปากร วิทยาเขตสนามจันทร์ จ.นครปฐม</p>
+    </footer>
+</div>
+
+    <br><br>
+    <button>Click Me!</button>
+    <div class="kkk">
+        <h1>Welcome to Asada Laohateerawat</h1>
+        <p>This is my first webpage!</p>
+
+        <h2>About Me</h2>
+        <p>I am learning HTML.</p>
+
+        <h2>My Favorite Fruits</h2>
+        <ul>
+            <li>Mango</li>
+            <li>Orange</li>
+            <li>Apple</li>
+        </ul>
+        <div class="con">
+            <h2>Useful Links</h2>
+            <a href="https://www.w3schools.com">Learn at W3Schools</a><br>
+            <a href="pages/basichtml2.html">Go to Basic</a><br>
+            <a href="aboutme.html">aboutme</a> <br>
+            <a href="mytable.html">📅Table</a>
+
+        </div>
     </div>
 </body>
 
